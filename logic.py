@@ -51,10 +51,6 @@ def recieveDataForPeriod(client, dateFrom, dateTo):
     
     return data
 
-# async def fetch(workID):
-#     async with recieveRevision(workID) as response:
-#         return await response
-
 def recieveRevision(client, workID):
     rev = []
     workitem = client.get_workitem(workID)

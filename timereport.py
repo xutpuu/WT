@@ -8,5 +8,3 @@ if __name__ == "__main__":
     window.show()
     app.exec_()
 
-    # df1.to_excel("output.xlsx")
-    # print(dfsum)
